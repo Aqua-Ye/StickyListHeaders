@@ -4,7 +4,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.5.+'
+        classpath 'com.android.tools.build:gradle:0.9.+'
     }
 }
 
@@ -15,8 +15,8 @@ version = "1.0.0-SNAPSHOT"
 group = "com.emilsjolander"
 
 android {
-    compileSdkVersion 18
-    buildToolsVersion "18.0.1"
+    compileSdkVersion 19
+    buildToolsVersion "19.0.3"
 
     sourceSets {
         main {
